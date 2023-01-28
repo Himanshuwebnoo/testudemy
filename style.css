@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+#page-logo a{
+     padding: 10px;
+     color: rgb(245, 243, 160);
+     font-size: 50px;
+     text-decoration: none;
+     text-transform: uppercase;
+     text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header ul{
+    display: flex;
+}
+header li{
+    margin-left: 20px;
+}
+#hero{
+    height: 650px;
+    background-image: url("images/places/ocean.webp");
+    background-position: center;
+    background-size: cover;
+}
+#hero-content{
+    width: 800px;
+    background-color: rgb(51 47 47 / 53%);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    margin: auto;
+    position: relative;
+    top: 200px;
+}
+#hero-content h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 0px;
+}
+#hero-content p{
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+#hero-content a{
+    text-decoration: none;
+    background-color: rgb(255, 251, 0);
+    padding: 10px 25px;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+#hero-content a:hover{
+    background-color: rgb(255, 150, 0);
+}
+header a{
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+header a:hover{
+    color: rgb(77, 77, 77);
+    background-color: rgb(255, 251, 0);
+}
+.destination{
+       width: 30%;
+       padding: 20px;
+       padding-top: 10px;
+       text-transform: uppercase;
+}
+.logo-main:hover{
+     background-color: transparent;
+}
+.destination img{
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+}
+#destinations{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+#highlights h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: rgb(59, 65, 64);
+    margin: 24px 0;
+}
+.destination p{
+    text-align: center;
+}
+.destination strong{
+    color: rgb(0, 160, 117);
+}
+#highlights{
+    background: linear-gradient(45deg, rgb(227, 255, 253), rgb(202, 243, 240));
+    padding: 25px;
+}
+footer{
+    background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+}
+footer img{
+    width: 50px;
+    height: 50px;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+footer li{
+    margin: 0 10px;
+}
+
+.actions{
+    float: right;
+}
+.actions a{
+    text-decoration: none;
+    padding: 6px;
+    color: rgb(22, 211, 228);
+    border-radius: 5px;
+}
+.actions a:hover{
+    background-color: rgb(235, 253, 255);
+}
